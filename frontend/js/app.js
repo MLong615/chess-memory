@@ -492,7 +492,7 @@ function createColorBadgeHTML(color) {
     const label = color === 'white' ? 'White' : 'Black';
     const piece = color === 'white' ? '♔' : '♚';
     return `<span class="color-badge ${color}" title="Danya played ${label} in this game">` +
-        `<span aria-hidden="true">${piece}</span> Danya: ${label}</span>`;
+        `<span aria-hidden="true">${piece}</span> Danya Plays ${label}</span>`;
 }
 
 /**
